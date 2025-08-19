@@ -110,9 +110,6 @@ python train_model.py
 
 python app.py
 
-
-✅ Backend will run at: http://127.0.0.1:5000
-
 🔹 3. Frontend Setup (React.js)
 
 Open a new terminal and navigate to the frontend folder:
@@ -128,34 +125,6 @@ npm install
 Start the React development server:
 
 npm start
-
-
-✅ Frontend will run at: http://localhost:3000
-
-🔹 4. Connecting Frontend & Backend
-
-Make sure the Flask backend is running on port 5000.
-
-The React frontend will call backend APIs like:
-
-const response = await fetch("http://127.0.0.1:5000/predict", {
-  method: "POST",
-  body: formData
-});
-
-🧪 Example API Endpoint
-
-POST /predict
-
-Request: Upload image file
-
-Response:
-
-{
-  "disease": "Melanoma",
-  "confidence": 0.92,
-  "first_aid": "Consult a dermatologist immediately..."
-}
 
 📊 Dataset
 
