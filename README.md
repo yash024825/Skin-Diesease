@@ -70,11 +70,11 @@ skin-disease-diagnosis/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 git clone https://github.com/your-username/skin-disease-diagnosis.git
 cd skin-disease-diagnosis
 
-###🔹 2. Backend Setup (Flask + TensorFlow)
+🔹 2. Backend Setup (Flask + TensorFlow)
 
 #Navigate to the backend folder:
 
